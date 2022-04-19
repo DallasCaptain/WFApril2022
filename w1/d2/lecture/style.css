@@ -1,0 +1,33 @@
+h1{
+    background-color: rgb(121, 197, 34);
+    font-size: 45px;
+}
+p.notblue{
+    color: violet;
+}
+.notblue{
+    color: firebrick;
+}
+
+p{
+    color: cornflowerblue;
+    background-color: cadetblue;
+}
+
+div > p{
+    background-color: yellowgreen;
+}
+
+
+#middlep{
+    background-color: bisque;
+    padding: 40px;
+    padding-left: 10px;
+    margin: 25px;
+    border: 2px dotted blueviolet;
+}
+
+#megakitty{
+    height: 100px;
+    width: 300px;
+}
