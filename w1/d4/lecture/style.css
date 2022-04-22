@@ -1,0 +1,42 @@
+*{
+    /* outline: 1px solid pink; */
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    background-color: bisque;
+}
+
+.carl{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(6, 176, 199);
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.bob{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    position: fixed;
+    bottom: 10px;
+    right: 50px
+}
+
+.stick{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(135, 222, 139);
+   position: sticky;
+    top:50px;
+    bottom:25px;
+    
+}

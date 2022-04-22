@@ -1,0 +1,47 @@
+.parent{
+    height: 900px;
+    background-color: bisque;
+    display: flex;
+}
+
+.child{
+    height: 150px;
+}
+.ggc{
+    height: 100px;
+    background-color: aqua;
+}
+
+
+.parent > .child{
+    background-color: violet;
+    border: 5px dotted pink;
+}
+
+
+.parent, .child{
+    border: 4px dashed green;
+}
+
+.parent.child{
+    border: 10px solid black;
+}
+
+.child:hover{
+    background-color: blue;
+}
+
+img{
+    padding: 20px;
+    
+}
+.mid{
+    flex: 2;
+}
+
+.first{
+    flex: 1;
+}
+.last{
+    flex: 3;
+}
